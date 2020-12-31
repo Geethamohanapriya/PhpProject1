@@ -31,15 +31,15 @@ $mail = new PHPMailer();
           $mail->Host = 'ssl://smtp.gmail.com';
 
       // Gmail ID which you want to use as SMTP server
-      $mail->Username = 'ncccanteenguntur@gmail.com';
+      $mail->Username = 'your mail';
       // Gmail Password
-      $mail->Password = 'ncc169@vignan';
+      $mail->Password = 'your pwd';
       $mail->Port ='465';
       //$mail->SMTPDebug = 3;
       // Email ID from which you want to send the email
-      $mail->setFrom('ncccanteenguntur@gmail.com','test dietsuggesto');
+      $mail->setFrom('your mail','test dietsuggesto');
       // Recipient Email ID where you want to receive emails
-      $mail->addAddress('geethamohanapriyapuli@gmail.com');
+      $mail->addAddress('to mail id');
 
       $mail->isHTML(true);
       $mail->Subject = 'Booking appointment';
